@@ -5,6 +5,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import About from "./components/About";
 import NavBar from "./components/NavBar";
 import Contact from "./components/Contact"
+import Projects from "./components/Projects"
 
 function App() {
   return (
@@ -24,6 +25,12 @@ function App() {
             path="/about"
             render={() => {
               return <About />;
+            }}
+          />
+                    <Route
+            path="/projects"
+            render={() => {
+              return <Projects />;
             }}
           />
           <Route

@@ -13,9 +13,9 @@ export default function NavBar() {
       {/* <Link style={{ textDecoration: "none", color: "black" }} to={"/resume"}>
         Resume
       </Link> */}
-      {/* <Link style={{ textDecoration: "none", color: "black" }} to={"/projects"}>
+      <Link style={{ textDecoration: "none", color: "black" }} to={"/projects"}>
         Projects
-      </Link>  */}
+      </Link> 
       <Link style={{ textDecoration: "none", color: "black" }} to={"/contact"}>
         Contact
       </Link>
