@@ -1,10 +1,27 @@
-import './Styles/index.css';
+import "./Styles/index.css";
+import SocialLinks from './components/SocialLinks'
+import Home from './components/Home'
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
+// import About from "./About";
+
 
 function App() {
   return (
     <div className="App">
-      <h1 className="intro">Hello, I'm Jen Stella.</h1>
-      <h1 className="subIntro">I'm a Full-Stack Developer<br></br>specializing in front end work.</h1>
+      <BrowserRouter id="browser">
+        <Switch >
+        <Route
+              //homepage
+              exact
+              path="/"
+              render={() => {
+                return <Home />;
+              }}
+            />        
+            </Switch>
+        <SocialLinks />
+
+      </BrowserRouter>
     </div>
   );
 }
