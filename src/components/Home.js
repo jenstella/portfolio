@@ -1,4 +1,6 @@
 import React from "react";
+// import {Link} from 'react-router-dom'
+// import About from './About'
 
 export default function Home() {
   return (
@@ -7,11 +9,15 @@ export default function Home() {
       <h1 className="subIntro">
         I'm a Full-Stack Developer<br></br>specializing in front end work.
       </h1>
+      {/* <Link path={'/about'} render={() => {
+          return <About />
+      }}> */}
       <img
         id="photo-of-me"
         src="https://i.pinimg.com/564x/54/6c/ce/546ccef1e8be5e15e1cfec197d7cb5c5.jpg"
         alt="jen sitting at her laptop"
       ></img>
+      {/* </Link> */}
     </div>
   );
 }

@@ -51,8 +51,7 @@ body {
 /* how do i make this sticky at bottom of page? */
 #footer {
   display: flex;
-  flex-direction: column; 
-  /* if i do not want them stacked change this back to row or get rid of it */
+  /* if i want them to be stacked make it a column */
   justify-content: space-around;
   align-items: flex-end;
   flex-shrink: 0;
