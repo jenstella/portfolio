@@ -1,6 +1,13 @@
-/*-------------- background images ---------------*/
+/*-------------- background ---------------*/
 body {
   background-color: rgb(219, 207, 181);
+}
+
+/* -------------------Nav------------------------ */
+#nav {
+  display: flex;
+  justify-content: space-around;
+  font-family:'Courier New', Courier, monospace;
 }
 
 /* ----------------headers / fonts---------------- */
@@ -26,6 +33,11 @@ body {
   padding-bottom: 25px;
 }
 
+#contact-info {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* --------------photos--------------------- */
 
 #photo-of-me {
@@ -33,3 +45,19 @@ body {
   width: 600px;
   padding-bottom: 25px;
 }
+
+/* ------------footer------------- */
+
+/* how do i make this sticky at bottom of page? */
+#footer {
+  display: flex;
+  flex-direction: column; 
+  /* if i do not want them stacked change this back to row or get rid of it */
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-shrink: 0;
+  position: sticky;
+  padding: 20px;
+  padding-bottom: 25px;
+}
+

@@ -1,11 +1,13 @@
 import React from "react";
 
-export default function Links() {
+export default function Footer() {
   return (
     <div>
-      <div id="link-container">
+      <div id="footer">
         <a
           href="https://github.com/jenstella"
+          target="_blank"
+          rel="noreferrer"
           style={{
             textDecoration: "none",
             color: "black",
@@ -17,6 +19,8 @@ export default function Links() {
         </a>
         <a
           href="https://www.linkedin.com/in/jennifermartelle/"
+          target="_blank"
+          rel="noreferrer"
           style={{
             textDecoration: "none",
             color: "black",
@@ -39,6 +43,8 @@ export default function Links() {
         </a>
         <a
           href="mailto:jennifer.stella.martelle@gmail.com"
+          target="_blank"
+          rel="noreferrer"
           style={{
             textDecoration: "none",
             color: "black",

@@ -1,13 +1,16 @@
 import "./Styles/index.css";
-import SocialLinks from "./components/SocialLinks";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import About from "./components/About";
+import NavBar from "./components/NavBar";
+import Contact from "./components/Contact"
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter id="browser">
+        <NavBar />
         <Switch>
           <Route
             //homepage
@@ -23,8 +26,14 @@ function App() {
               return <About />;
             }}
           />
+          <Route
+            path="/contact"
+            render={() => {
+              return <Contact />;
+            }}
+          />
         </Switch>
-        <SocialLinks />
+        <Footer />
       </BrowserRouter>
     </div>
   );
