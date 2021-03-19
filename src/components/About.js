@@ -12,7 +12,7 @@ export default function About() {
         <p>Enter some more information about myself here!</p>
       </div>
       <div id="hobbies-container">
-          <h2 className="hobbies-header">Hobbies & Interests</h2>
+          <h3 className="hobbies-header">Hobbies & Interests</h3>
           <p>I love to travel (when the world is not in a pandemic). I spend as much time as I can outside, with my 2 dogs and my family. We love to snowboard, hike, and hang by a nice river in the summer.</p>
       </div>
       <h1 id="about-two">&lt;/about&gt;</h1>
