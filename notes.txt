@@ -1,0 +1,23 @@
+//------from contact page--------//
+            <a
+          href="tel:8023739851"
+          style={{
+            textDecoration: "none",
+            color: "black",
+            fontFamily: 'Calistoga',
+            fontSize: "25px",
+          }}
+        >
+          Phone: 802-373-9851
+        </a>
+        <a
+          href="mailto:jennifer.stella.martelle@gmail.com"
+          style={{
+            textDecoration: "none",
+            color: "black",
+            fontFamily: 'Calistoga' ,
+            fontSize: "25px",
+          }}
+        >
+          Email: jennifer.stella.martelle@gmail.com
+        </a>

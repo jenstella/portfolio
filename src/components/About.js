@@ -1,12 +1,21 @@
-import React from 'react'
+import React from "react";
 
 export default function About() {
-    return (
-        <div>
-            <h1 className="about-header">About Jen</h1>
-            <h3 className="tagline">Full Stack Developer with a passion for front end design, and the art of functionality to bring it all to life.</h3>
-            <br></br>
-            <p>Enter some more information about myself here!</p>
-        </div>
-    )
+  return (
+    <div>
+      <h1 id="about-one">&lt;about&gt;</h1>
+      <div id="about-container">
+        <h3 className="tagline">
+          I am a Full Stack Developer with a passion for front end design, and the art
+          of functionality to bring it all to life.
+        </h3>
+        <p>Enter some more information about myself here!</p>
+      </div>
+      <div id="hobbies-container">
+          <h2 className="hobbies-header">Hobbies & Interests</h2>
+          <p>I love to travel (when the world is not in a pandemic). I spend as much time as I can outside, with my 2 dogs and my family. We love to snowboard, hike, and hang by a nice river in the summer.</p>
+      </div>
+      <h1 id="about-two">&lt;/about&gt;</h1>
+    </div>
+  );
 }

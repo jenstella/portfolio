@@ -7,7 +7,7 @@ body {
 #nav {
   display: flex;
   justify-content: space-around;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Inconsolata', monospace;
 }
 
 /* ----------------headers / fonts---------------- */
@@ -46,6 +46,64 @@ body {
   padding-bottom: 25px;
 }
 
+/* --------------ABOUT PAGE---------------- */
+#about-one {
+  font-family: 'Inconsolata', monospace;
+  text-align: left;
+  margin-left: 45px;;
+  opacity: 40%;
+  padding-top: 100px;
+}
+#about-two {
+  font-family: 'Inconsolata', monospace;
+  text-align: left;
+  margin-left: 45px;;
+  opacity: 40%;
+  padding-top: 25px;
+}
+#about-container {
+  font-family: 'Inconsolata', monospace;
+  margin-left: 75px;
+  margin-right: 30px;
+
+}
+
+#hobbies-container {
+  font-family: 'Inconsolata', monospace;
+  margin-left: 75px;
+  margin-right: 30px;
+
+
+}
+
+
+/* ----------------contact page----------------- */
+#contact-info {
+  display:flex;
+  margin-top: 25px;
+  font-family: 'Calistoga', cursive;
+}
+
+#contact-left {
+  display: flex;
+  text-align: left;
+  float: left;
+  width: 40%;
+  flex-direction: column;
+}
+
+#contact-right {
+  display: flex;
+  text-align: right;
+  float: right;
+  width: 40%;
+  flex-direction: column;
+}
+
+
+
+
+
 /* ------------footer------------- */
 
 /* how do i make this sticky at bottom of page? */
@@ -58,5 +116,6 @@ body {
   position: sticky;
   padding: 20px;
   padding-bottom: 25px;
+  height: 50px;
 }
 
