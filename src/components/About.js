@@ -18,5 +18,6 @@ export default function About() {
       </div>
       <h1 id="about-two">&lt;/about&gt;</h1>
     </div>
+    
   );
 }

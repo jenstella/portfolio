@@ -4,8 +4,9 @@ import Home from "./components/Home";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import About from "./components/About";
 import NavBar from "./components/NavBar";
-import Contact from "./components/Contact"
-import Projects from "./components/Projects"
+import Contact from "./components/Contact";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume"
 
 function App() {
   return (
@@ -27,10 +28,16 @@ function App() {
               return <About />;
             }}
           />
-                    <Route
+          <Route
             path="/projects"
             render={() => {
               return <Projects />;
+            }}
+          />
+          <Route
+            path="/resume"
+            render={() => {
+              return <Resume />;
             }}
           />
           <Route

@@ -17,7 +17,6 @@ export default function Home() {
         src="https://i.pinimg.com/564x/54/6c/ce/546ccef1e8be5e15e1cfec197d7cb5c5.jpg"
         alt="jen sitting at her laptop"
       ></img>
-      {/* </Link> */}
     </div>
   );
 }
