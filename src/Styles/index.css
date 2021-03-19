@@ -8,6 +8,8 @@ body {
   display: flex;
   justify-content: space-around;
   font-family: 'Inconsolata', monospace;
+  background-color: rgb(231, 191, 191);
+  padding: 10px;
 }
 
 /* ----------------headers / fonts---------------- */
@@ -24,7 +26,12 @@ body {
 /* -----------------displays------------------- */
 
 .App {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
   text-align: center;
+  /* height: 90vh; */
+  padding-bottom: 45px;
 }
 
 #link-container {
@@ -76,7 +83,7 @@ body {
 /* ---------------------Projects Page----------------- */
 #projects-container {
   font-family: 'Inconsolata', monospace;
-
+  /* height: 75vh; */
 }
 
 #projects-one {
@@ -85,6 +92,7 @@ body {
   margin-left: 45px;;
   opacity: 40%;
   padding-top: 100px;
+  height: 50%;
 }
 #projects-two {
   font-family: 'Inconsolata', monospace;
@@ -92,6 +100,7 @@ body {
   margin-left: 45px;;
   opacity: 40%;
   padding-top: 25px;
+  height: 50%;
 }
 
 /* ----------------contact page----------------- */
@@ -133,12 +142,9 @@ body {
   /* if i want them to be stacked make it a column */
   justify-content: space-around;
   align-items: flex-end;
-  position: fixed;
   bottom: 0;
   width: calc(100vw - 40px);
-  flex-shrink: 0;
   padding: 20px;
-  padding-bottom: 25px;
   height: 50px;
 }
 

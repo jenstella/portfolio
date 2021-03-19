@@ -6,15 +6,16 @@ export default function About() {
       <h1 id="about-one">&lt;about&gt;</h1>
       <div id="about-container">
         <h3 className="tagline">
-          I am a Full Stack Developer with a passion for front end design, and the art
+          Who Am I? <br></br>I am a Full Stack Developer with a passion for front end design, and the art
           of functionality to bring it all to life.
         </h3>
-        <p>Enter some more information about myself here!</p>
+        <p>Previously working in marketing and social work, I finally decided to take the plunge into the field of web development in Jan 2021 which I had been itching to get into for years. I enjoy creating I live in Northern Vermont with my husband, my son, and our two dogs. </p>
       </div>
       <div id="hobbies-container">
           <h3 className="hobbies-header">Hobbies & Interests</h3>
-          <p>I love to travel (when the world is not in a pandemic). I spend as much time as I can outside, with my 2 dogs and my family. We love to snowboard, hike, and hang by a nice river in the summer. 
+          <p>When the world is not in a pandemic, I love to travel. I spend as much time as I can outside, with my family and two dogs: Rex (a 13 yr old rescue) and Ranger (one year old Border Collie). We love to snowboard, hike, go camping, and hang by the river in the summer.
           </p>
+          <p>I love exploring new places and cultures, and am always excited to visit a new museum. Often I can be found lost in a good book with my head in the clouds.</p>
       </div>
       <h1 id="about-two">&lt;/about&gt;</h1>
     </div>
