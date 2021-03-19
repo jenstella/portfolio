@@ -7,7 +7,7 @@ body {
 #nav {
   display: flex;
   justify-content: space-around;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   background-color: rgb(231, 191, 191);
   padding: 10px;
 }
@@ -20,7 +20,7 @@ body {
 
 .subIntro {
   font-size: 44px;
-  font-family: 'Calistoga', cursive;
+  font-family: "Calistoga", cursive;
 }
 
 /* -----------------displays------------------- */
@@ -40,8 +40,6 @@ body {
   padding-bottom: 25px;
 }
 
-
-
 /* --------------photos--------------------- */
 
 #photo-of-me {
@@ -52,52 +50,49 @@ body {
 
 /* --------------ABOUT PAGE---------------- */
 #about-one {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   text-align: left;
-  margin-left: 45px;;
+  margin-left: 45px;
   opacity: 40%;
   padding-top: 100px;
 }
 #about-two {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   text-align: left;
-  margin-left: 45px;;
+  margin-left: 45px;
   opacity: 40%;
   padding-top: 25px;
 }
 #about-container {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   margin-left: 75px;
   margin-right: 30px;
-
 }
 
 #hobbies-container {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   margin-left: 75px;
   margin-right: 30px;
-
-
 }
 
 /* ---------------------Projects Page----------------- */
 #projects-container {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   /* height: 75vh; */
 }
 
 #projects-one {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   text-align: left;
-  margin-left: 45px;;
+  margin-left: 45px;
   opacity: 40%;
   padding-top: 100px;
   height: 50%;
 }
 #projects-two {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   text-align: left;
-  margin-left: 45px;;
+  margin-left: 45px;
   opacity: 40%;
   padding-top: 25px;
   height: 50%;
@@ -105,24 +100,24 @@ body {
 
 /* ----------------contact page----------------- */
 #contact-info {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin-top: 25px;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
 }
 
 #contact-one {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   text-align: left;
-  margin-left: 45px;;
+  margin-left: 45px;
   opacity: 40%;
   padding-top: 100px;
 }
 #contact-two {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   text-align: left;
-  margin-left: 45px;;
+  margin-left: 45px;
   opacity: 40%;
   padding-top: 25px;
 }
@@ -131,8 +126,6 @@ body {
 #resume {
   padding-top: 45px;
 }
-
-
 
 /* ------------footer------------- */
 
@@ -147,4 +140,3 @@ body {
   padding: 20px;
   height: 50px;
 }
-
