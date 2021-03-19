@@ -13,27 +13,139 @@ export default function Projects() {
     <div id="projects-container">
       <h1 id="projects-one">&lt;projects&gt;</h1>
       <div id="projects-content">
-        <h1 className="proj-title">Today I Learned..</h1>
+        <h1 className="proj-title">Today I Learned...</h1>
         <h3>project description</h3>
-        <img src={til} alt="screenshot of today I learned"/>
+        <br></br>
+        <a
+          href="https://github.com/jenstella/react-journal"
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            textDecoration: "none",
+            color: "black",
+            fontSize: "30px",
+          }}
+        >
+          github repo
+        </a>
+        <img src={til} alt="screenshot of today I learned" />
+
+
         <h1 className="proj-title">Yelpington</h1>
         <h3>project description</h3>
-        <img src={yelpington} alt="screenshot of yelpington"/>
+        <br></br>
+        <a
+          href="https://github.com/jenstella/yelpington"
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            textDecoration: "none",
+            color: "black",
+            fontSize: "30px",
+          }}
+        >
+          github repo
+        </a>
+        <img src={yelpington} alt="screenshot of yelpington" />
+
+
         <h1 className="proj-title">Geo-Vermonter</h1>
         <h3>project description</h3>
-        <img src={geoVermonter} alt="screenshot of geovermonter"/>
+        <br></br>
+        <a
+          href="https://github.com/jenstella/geo-vermonter"
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            textDecoration: "none",
+            color: "black",
+            fontSize: "30px",
+          }}
+        >
+          github repo
+        </a>
+        <br></br>
+        <img src={geoVermonter} alt="screenshot of geovermonter" />
+
+
         <h1 className="proj-title">Tic Tac Toe</h1>
         <h3>project description</h3>
-        <img src={ttt} alt="screenshot of tic tac toe"/>
+        <br></br>
+        <a
+          href="https://github.com/jenstella/tic-tac-toe"
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            textDecoration: "none",
+            color: "black",
+            fontSize: "30px",
+          }}
+        >
+          github repo
+        </a>
+        <br></br>
+        <img src={ttt} alt="screenshot of tic tac toe" />
+
+
         <h1 className="proj-title">Remock</h1>
         <h3>project description</h3>
+        <br></br>
+        <a
+          href="https://github.com/jenstella/remock-blog"
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            textDecoration: "none",
+            color: "black",
+            fontSize: "30px",
+          }}
+        >
+          github repo
+        </a>
+        <br></br>
+        <img src={remock} alt="screenshot of remock" />
+
+
+
         <h1 className="proj-title">Zorkington</h1>
         <h3>project description</h3>
-        <img src={zorkington} alt="screenshot of zorkington"/>
+        <br></br>
+        <a
+          href="https://github.com/jenstella/zorkington"
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            textDecoration: "none",
+            color: "black",
+            fontSize: "30px",
+          }}
+        >
+          github repo
+        </a>
+        <br></br>
+        <img src={zorkington} alt="screenshot of zorkington" />
+
+
         <h1 className="proj-title">Guess The Number</h1>
         <h3>project description</h3>
-        <img src={guess} alt="screenshot of guess the number"/>
+        <br></br>
+        <a
+          href="https://github.com/jenstella/guess-the-number"
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            textDecoration: "none",
+            color: "black",
+            fontSize: "30px",
+          }}
+        >
+          github repo
+        </a>
+        <br></br>
+        <img src={guess} alt="screenshot of guess the number" />
       </div>
+
+
       <h1 id="projects-two">&lt;/projects&gt;</h1>
     </div>
   );
