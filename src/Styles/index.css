@@ -40,6 +40,14 @@ body {
   padding-bottom: 25px;
 }
 
+/* why doesn't this work? ------!!!!!!!!!!!!!!!!!!!!!!!*/
+/* .external-links {
+  box-shadow: slateblue;
+}
+.external-links:hover {
+color:pink;
+} */
+
 /* --------------photos--------------------- */
 
 #photo-of-me {

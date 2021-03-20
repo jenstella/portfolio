@@ -14,12 +14,27 @@ export default function Projects() {
       <h1 id="projects-one">&lt;projects&gt;</h1>
       <div id="projects-content">
         <h1 className="proj-title">Today I Learned...</h1>
-        <h3>project description</h3>
+        <h3>Built using React, MongoDB, ExpressJS and Mongoose. This project for Burlington Code Academy acts as an online journal, which allows for editing and deletion of posts. The data is saved on a database, where it can be fetched from and manipulated. </h3>
+        <br></br>
+        <a
+          href="https://salty-caverns-29070.herokuapp.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="external-links"
+          style={{
+            textDecoration: "none",
+            color: "black",
+            fontSize: "30px",
+          }}
+        >
+          test it out here!
+        </a>
         <br></br>
         <a
           href="https://github.com/jenstella/react-journal"
           target="_blank"
           rel="noreferrer"
+          className="external-links"
           style={{
             textDecoration: "none",
             color: "black",
@@ -32,12 +47,13 @@ export default function Projects() {
         <hr></hr>
 
         <h1 className="proj-title">Yelpington</h1>
-        <h3>project description</h3>
+        <h3>Built using ExpressJS, JSON, AJAX, Leaflet Maps and React. Built a server to hold JSON files, which through Javascript were parsed, and displayed on the front end of the webpage. Displayed and manipulated an embedded map with coordinates for different restaurants pinned. Using React, when name of restaurant is clicked or the pin for it is clicked, it brings up that restaurants data from server.</h3>
         <br></br>
         <a
           href="https://github.com/jenstella/yelpington"
           target="_blank"
           rel="noreferrer"
+          className="external-links"
           style={{
             textDecoration: "none",
             color: "black",
@@ -56,6 +72,7 @@ export default function Projects() {
           href="https://github.com/jenstella/geo-vermonter"
           target="_blank"
           rel="noreferrer"
+          className="external-links"
           style={{
             textDecoration: "none",
             color: "black",
@@ -75,6 +92,7 @@ export default function Projects() {
           href="https://github.com/jenstella/tic-tac-toe"
           target="_blank"
           rel="noreferrer"
+          className="external-links"
           style={{
             textDecoration: "none",
             color: "black",
@@ -94,6 +112,7 @@ export default function Projects() {
           href="https://github.com/jenstella/remock-blog"
           target="_blank"
           rel="noreferrer"
+          className="external-links"
           style={{
             textDecoration: "none",
             color: "black",
@@ -113,6 +132,7 @@ export default function Projects() {
           href="https://github.com/jenstella/zorkington"
           target="_blank"
           rel="noreferrer"
+          className="external-links"
           style={{
             textDecoration: "none",
             color: "black",
@@ -132,6 +152,7 @@ export default function Projects() {
           href="https://github.com/jenstella/guess-the-number"
           target="_blank"
           rel="noreferrer"
+          className="external-links"
           style={{
             textDecoration: "none",
             color: "black",
