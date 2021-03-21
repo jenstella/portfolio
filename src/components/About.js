@@ -13,10 +13,9 @@ export default function About() {
         <p>
           Previously working in marketing and social work, I decided to take the
           plunge into the field of web development in Jan 2021. I had been eager
-          to make the career pivot and am so glad I finally did. I love creating
-          aesthetically pleasing functional web applications through React.
+          to make the career pivot and am so glad I finally did. I always felt I had a creative mind, but never knew what my outlet for my creativity was, until I found web development. I could not be happier! I find great joy in building aesthetically pleasing web applications.
         </p>
-        <p>Originally from Connecticut, currently living in Vermont. </p>
+        <p>Originally from Connecticut, I moved to Vermont in 2009 attending Champlain College. After college, I left and have spent time living in Massachusetts and Connecticut, but ultimately always end up back in Vermont. I now own a home in Northern Vermont with beautiful views of Mt. Mansfield, and plenty of room for my dogs to roam. Life is good! </p>
       </div>
       <div id="hobbies-container">
         <h3 className="hobbies-header">Hobbies & Interests</h3>

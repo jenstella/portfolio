@@ -14,7 +14,7 @@ export default function Projects() {
       <h1 id="projects-one">&lt;projects&gt;</h1>
       <div id="projects-content">
         <h1 className="proj-title">Today I Learned...</h1>
-        <h3>Built using React, MongoDB, ExpressJS and Mongoose. This project for Burlington Code Academy acts as an online journal, which allows for editing and deletion of posts. The data is saved on a database, where it can be fetched from and manipulated. </h3>
+        <h3>Tech used: React, MongoDB, ExpressJS and Mongoose. This project for Burlington Code Academy acts as an online journal, which allows for editing and deletion of posts. The data is saved on a database, where it can be fetched from and manipulated. </h3>
         <br></br>
         <a
           href="https://salty-caverns-29070.herokuapp.com/"
@@ -47,7 +47,7 @@ export default function Projects() {
         <hr></hr>
 
         <h1 className="proj-title">Yelpington</h1>
-        <h3>Built using ExpressJS, JSON, AJAX, Leaflet Maps and React. Built a server to hold JSON files, which through Javascript were parsed, and displayed on the front end of the webpage. Displayed and manipulated an embedded map with coordinates for different restaurants pinned. Using React, when name of restaurant is clicked or the pin for it is clicked, it brings up that restaurants data from server.</h3>
+        <h3>Tech used: ExpressJS, JSON, AJAX, Leaflet Maps and React. Built a server to hold JSON files, which through Javascript were parsed, and displayed on the front end of the webpage. Displayed and manipulated an embedded map with coordinates for different restaurants pinned. Using React, when name of restaurant is clicked or the pin for it is clicked, it brings up that restaurants data from server.</h3>
         <br></br>
         <a
           href="https://github.com/jenstella/yelpington"
@@ -66,7 +66,7 @@ export default function Projects() {
         <hr></hr>
 
         <h1 className="proj-title">Geo-Vermonter</h1>
-        <h3>project description</h3>
+        <h3>Tech used: React, Leaflet, embedded map API's, geocoding API's. Created a game where when the start button is pressed, a pin is dropped into a random part of the state of Vermont and the map zooms in. </h3>
         <br></br>
         <a
           href="https://github.com/jenstella/geo-vermonter"

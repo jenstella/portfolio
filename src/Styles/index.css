@@ -133,6 +133,8 @@ color:pink;
 /* -----------resume----------- */
 #resume {
   padding-top: 45px;
+  font-family: "Inconsolata", monospace;
+  text-decoration: none;
 }
 
 /* ------------footer------------- */
