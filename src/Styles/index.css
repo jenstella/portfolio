@@ -1,6 +1,6 @@
 /*-------------- background ---------------*/
 body {
-  background-color: rgb(219, 207, 181);
+  background-color: rgb(247, 238, 220);
 }
 
 /* -------------------Nav------------------------ */
@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: space-around;
   font-family: "Inconsolata", monospace;
-  background-color: rgb(231, 191, 191);
+  background-color: rgb(246, 243, 247);
   padding: 10px;
 }
 

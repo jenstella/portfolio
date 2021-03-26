@@ -146,7 +146,7 @@ export default function Projects() {
         <hr></hr>
 
         <h1 className="proj-title">Guess The Number</h1>
-        <h3>project description</h3>
+        <h3>Tech used: Node.js, Javascript. Text based game where the user picks a random number and sets the range for the computer to guess in. The computer makes 'smart' guesses based on the average of the range, and the player responds with 'Yes' or 'No' if the guess is their number. If it is not their number, they are prompted to answer 'higher' or 'lower'. If the player cheats, the computer detects it and ends the game.</h3>
         <br></br>
         <a
           href="https://github.com/jenstella/guess-the-number"
