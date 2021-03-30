@@ -1,15 +1,16 @@
 import React from "react";
-import myresume from "../Images/myresume.png";
+import JenStellaResume from "../Images/JenStellaResume.pdf";
+import resumepng from "../Images/resumepng.png";
 
-let jenResume = myresume;
+let jenResume = resumepng;
 
 export default function Resume() {
   return (
     <div id="resume">
       <img src={jenResume} alt="resume" height="1000px" />
       <br></br>
-      <a href="../Images/myresume.png" download>
-  <img src="../images/myresume.png" alt="Download a copy of my resume by clicking here" style={{textDecoration: "none"}}/>
+      <a href={jenResume} download>
+  <img src="../Images/JenStellaResume.pdf" alt="Download a copy of my resume by clicking here" style={{textDecoration: "none"}}/>
 </a>
 {/* get the download link to work */}
     </div>
