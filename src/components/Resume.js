@@ -1,8 +1,8 @@
 import React from "react";
-import JenStellaResume from "../Images/JenStellaResume.pdf";
-import resumepng from "../Images/resumepng.png";
+import JSResume from "../Images/JSResume.pdf";
+import jenMartelleResume from "../Images/jenMartelleResume.png";
 
-let jenResume = resumepng;
+let jenResume = jenMartelleResume;
 
 export default function Resume() {
   return (
@@ -10,9 +10,8 @@ export default function Resume() {
       <img src={jenResume} alt="resume" height="1000px" />
       <br></br>
       <a href={jenResume} download>
-  <img src="../Images/JenStellaResume.pdf" alt="Download a copy of my resume by clicking here" style={{textDecoration: "none"}}/>
+  <img src="../Images/JSResume.pdf" alt="Download a copy of my resume by clicking here" style={{textDecoration: "none"}}/>
 </a>
-{/* get the download link to work */}
     </div>
   );
 }

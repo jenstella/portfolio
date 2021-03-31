@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <h1 className="intro">Hello, I'm Jen Stella.</h1>
       <h1 className="subIntro">
-        I'm a Full-Stack Developer<br></br>specializing in front end work.
+        I'm a Full-Stack Software Engineer
       </h1>
       {/* <Link path={'/about'} render={() => {
           return <About />
